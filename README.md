@@ -6,9 +6,11 @@ scientists (no coding background required).
 ## Who this is for
 
 Journalists, researchers, and social scientists who want to track changes to their
-notes and writeups, collaborate with others, and understand what it means when
-someone asks you to "check the repo" or "open a PR." No coding background needed —
-everything today is plain-text notes, the same kind of file you're reading right now.
+work, collaborate with others, and understand what it means when someone asks you to
+"check the repo" or "open a PR." No coding background needed. We'll practice on
+plain-text notes today, but the same skills carry over to anything else you might
+later track this way — a website, an R or Python analysis script, a Jupyter
+notebook, a shared dataset.
 
 ## What you'll leave with
 
