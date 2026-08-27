@@ -1,7 +1,9 @@
-# 0. Before You Arrive
+# 0. Before You Arrive (Optional)
 
-Three things to do ahead of the session so we don't spend the first 20 minutes
-waiting on downloads.
+Nothing here is required — we'll cover all of it together at the start of the
+session (see [2. Setup](02-setup.md)). If you'd like to save yourself a few
+minutes on the day, or already have a GitHub account, feel free to do some or
+all of this ahead of time.
 
 ## Create a GitHub account
 
@@ -26,8 +28,8 @@ thing you need to install.
 ## Install the Xcode Command Line Tools
 
 This is what actually puts the `git` program on your Mac. It's a few hundred
-megabytes and can take 10+ minutes on slower connections, so please do this
-before the session rather than during it.
+megabytes and can take 10+ minutes on slower connections — doing it now means
+less waiting during the session, but we've built time in either way.
 
 1. Open **Terminal** (press `Cmd + Space`, type `Terminal`, hit Enter).
 2. Type the following and press Enter:
@@ -41,5 +43,5 @@ before the session rather than during it.
 4. Once it finishes, run `git --version` again — you should see something like
    `git version 2.39.3`.
 
-If you get stuck on any of this, don't worry — we'll have time at the start of
-the session to help everyone get set up. See [guide/02-setup.md](02-setup.md).
+If you get stuck on any of this, don't worry — just leave it and we'll finish
+it together at the start of the session. See [guide/02-setup.md](02-setup.md).
