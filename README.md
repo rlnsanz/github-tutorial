@@ -32,10 +32,10 @@ If you'd like a head start, see [guide/00-before-you-arrive.md](guide/00-before-
 | Time | Section |
 |---|---|
 | 0:00 – 0:10 | Welcome & [key concepts](guide/01-concepts.md) |
-| 0:10 – 0:30 | [Setup](guide/02-setup.md) — GitHub account, VS Code, and Git, together in the room |
-| 0:30 – 0:50 | [Your first repository](guide/03-first-repo.md) — create, clone, edit, commit, push |
-| 0:50 – 1:15 | [Pair exercise](guide/04-pair-exercise.md) — fork a partner's repo and open a Pull Request |
-| 1:15 – 1:25 | [When things go wrong](guide/05-troubleshooting.md) — common errors and how to recover |
+| 0:10 – 0:30 | [Setup](guide/02-setup.md): GitHub account, VS Code, and Git, together in the room |
+| 0:30 – 0:50 | [Your first repository](guide/03-first-repo.md): create, clone, edit, commit, push |
+| 0:50 – 1:15 | [Pair exercise](guide/04-pair-exercise.md): fork a partner's repo and open a Pull Request |
+| 1:15 – 1:25 | [When things go wrong](guide/05-troubleshooting.md): common errors and how to recover |
 | 1:25 – 1:30 | Wrap-up & [resources](guide/06-resources.md) |
 
 Work at your own pace, ask questions any time, and pair up if you get stuck — the
