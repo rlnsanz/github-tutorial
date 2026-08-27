@@ -22,17 +22,10 @@ an R or Python analysis script, a set of Jupyter notebooks.
 
 ## Before you arrive
 
-Nothing is required in advance — we'll create GitHub accounts and install
-everything together at the start of the session. Already have a GitHub
-account? Great, one less thing to do; we'll build the rest around whoever's
-ready and whoever isn't.
+Nothing is required in advance. We'll create GitHub accounts and install
+Visual Studio Code and XCode Tools together at the start of the session. 
 
-If you'd like a head start, see
-[guide/00-before-you-arrive.md](guide/00-before-you-arrive.md) — entirely
-optional.
-
-No need to bring anything else — we'll be writing plain-text notes throughout, not
-editing Word docs or PDFs. (More on why in [key concepts](guide/01-concepts.md).)
+If you'd like a head start, see [guide/00-before-you-arrive.md](guide/00-before-you-arrive.md).
 
 ## Agenda (90 minutes)
 
