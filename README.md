@@ -1,16 +1,15 @@
 # Hands-On Git & GitHub Workshop
 
-A 90 minute, in-person introduction to Git and GitHub for journalists and social
-scientists (no coding background required).
+A 90 minute, in-person introduction to Git and GitHub for journalists, researchers,
+and social scientists (no coding background required).
 
 ## Who this is for
 
 Journalists, researchers, and social scientists who want to track changes to their
 work, collaborate with others, and understand what it means when someone asks you to
-"check the repo" or "open a PR." No coding background needed. We'll practice on
-plain-text notes today, but the same skills carry over to anything else you might
-later track this way — a website, an R or Python analysis script, a Jupyter
-notebook, a shared dataset.
+"check the repo" or "open a PR." We'll practice on plain-text notes today, but the
+same skills carry over to anything else you might later track this way: a website,
+an R or Python analysis script, a set of Jupyter notebooks.
 
 ## What you'll leave with
 
@@ -19,7 +18,7 @@ notebook, a shared dataset.
 - Experience forking someone else's repository, proposing a change, and opening a
   Pull Request (and reviewing/merging one from a partner)
 - A working mental model of the vocabulary: repository, commit, branch, push/pull,
-  fork, pull request
+  fork, Pull Request
 
 ## Before you arrive
 
@@ -51,6 +50,6 @@ facilitator will be circulating throughout.
 ## Repo structure
 
 ```
-README.md              this page
-guide/                  step-by-step instructions, one file per agenda section
+README.md   this page
+guide/       step-by-step instructions, one file per agenda section
 ```
