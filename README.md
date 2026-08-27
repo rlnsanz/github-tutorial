@@ -1,6 +1,7 @@
-# Git & GitHub for Journalists and Social Scientists
+# Hands-On Git & GitHub Workshop
 
-A 90-minute, hands-on introduction to Git and GitHub (no coding background required).
+A 90 minute, in-person introduction to Git and GitHub for journalists and social
+scientists (no coding background required).
 
 ## Who this is for
 
@@ -22,7 +23,6 @@ everything today is plain-text notes, the same kind of file you're reading right
 
 Please do this ahead of time — it saves setup time for the whole room:
 
-- [ ] A Mac with admin access (to install software)
 - [ ] [Create a free GitHub account](guide/00-before-you-arrive.md#create-a-github-account)
 - [ ] [Install Visual Studio Code](guide/00-before-you-arrive.md#install-visual-studio-code)
 - [ ] [Install the Xcode Command Line Tools](guide/00-before-you-arrive.md#install-the-xcode-command-line-tools) (this is what gives your Mac the `git` command — the download is large, so doing it before the session saves time)
