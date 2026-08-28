@@ -3,33 +3,34 @@
 A few terms before we touch anything. It's fine if these don't fully click
 yet — they'll make more sense once you've done them.
 
-## Git vs. GitHub
+## Git vs. GitHub 
 
 - **Git** is a program that runs on your computer and keeps a history of
   changes to a folder of files. It works entirely offline.
 - **GitHub** is a website that hosts copies of those folders online, so you
-  can back them up, share them, and collaborate with other people.
+  can back them up, share them, and collaborate with other people. 
+  There are many others like gitlab.com, codeberg.org; sometimes companies host their own instances.
 
 You could use Git without ever touching GitHub. But GitHub is what makes it
 easy to publish your work and collaborate with others, so that's our focus
 today.
 
-## Why plain text?
+## What is plain text, why does it matter?
 
 Git is built to track changes *line by line* in plain text files — Markdown
-(`.md`), plain text (`.txt`), CSV, code, and so on. That's why everything in
-this tutorial is a `.md` file: Git can show you exactly which lines changed,
-and can usually combine two people's edits automatically. It can technically
-store a Word doc or a PDF too, but it can only tell you "this binary file
-changed" — not what changed inside it, and it can't merge two people's edits
-to one. Right tool for the job.
+(`.md`), plain text (`.txt`), CSV, code, and so on; i.e., files that show straightforward text when opened with something like TextEdit. 
+Files that require special programs to read (e.g., PDFs, Excel files, images) are binary file types, which aren't supported natively by Git.
+That's why everything in this tutorial is a `.md` file (i.e., plain text): Git can show you exactly which lines changed,
+and can usually combine two people's edits automatically. While you **technically** can store binary file types, 
+Git won't be able to track changes to these files properly - no edit tracking or merging. 
+If you **really** need to store binary files, it's best to use Git Large File Storage (LFS), but that's outside the scope of today's lesson. 
 
 ## Vocabulary
 
 - **Repository ("repo")** — a folder that Git is keeping a history of. Can
   live on your computer, on GitHub, or both.
 - **Commit** — a saved snapshot of your changes, with a short message
-  describing what you did. Think of it like a labeled save point.
+  describing what you did. Think of it like a labeled checkpoint you can always refer to in the future.
 - **Push / Pull** — sending your commits up to GitHub (*push*), or bringing
   down commits someone else made (*pull*).
 - **Clone** — making a local copy of a GitHub repository on your own
