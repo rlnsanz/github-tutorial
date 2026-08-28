@@ -10,6 +10,9 @@ make more sense watching it happen from both ends.
 Ask your partner for the URL of the repository they created in the last
 section (e.g. `https://github.com/their-username/their-notes`).
 
+Now we're going to make our own copy on github's servers onto our account (i.e., fork). 
+This way, we can change the code without needing the permission of the original author. 
+
 ## 2. Fork it
 
 1. Open your partner's repository page on GitHub.com.
@@ -27,6 +30,9 @@ username, not theirs):
 1. `Cmd + Shift + P` → `Git: Clone` → **Clone from GitHub**.
 2. Select your fork of your partner's repo.
 3. Choose a folder, then **Open** when prompted.
+
+Now we'll create a branch in our forked version of the repository - think of branches of alternate versions of your work, 
+all living on the same repository, while forks as completely new copies of repositories.
 
 ## 4. Create a branch
 

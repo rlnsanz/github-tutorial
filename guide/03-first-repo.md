@@ -34,7 +34,9 @@ You now have a local copy, connected to the one on GitHub.
 
 1. In the file explorer on the left, click `README.md` to open it.
 2. Add a line about yourself — who you are, what you're working on, whatever
-   feels natural. Save the file (`Cmd + S`).
+   feels natural. Save the file (`Cmd + S`). `.md` files have special formatting that you can use to create tables, headlines and much more. Check out https://www.markdownguide.org/basic-syntax/ for the syntax. 
+
+Now we're going to make a labeled checkpoint (commit) and save it on github's servers (push).
 
 ## Commit and push
 
