@@ -16,32 +16,58 @@ or VS Code installed), skip straight to whichever step you still need.
 ## 2. Install VS Code (skip if you already have it)
 
 We'll use [Visual Studio Code](https://code.visualstudio.com/) (VS Code) as
-our editor. It has a built-in Terminal and a built-in Git tool, so it's the
-only thing you need to install.
+our editor, as it is one of the most popular and beginner friendly code editors available. 
+It has a built-in Terminal and a built-in Git tool, so it's the only thing 
+you need to install; it'll make working with Git and writing plain text files 
+a lot easier.
 
-1. Go to [code.visualstudio.com](https://code.visualstudio.com/) and download
-   the Mac version.
-2. Open the downloaded file and drag **Visual Studio Code** into your
+First, Go to [code.visualstudio.com](https://code.visualstudio.com/) and download
+the correct version for your operating system (Windows or MacOS).
+
+### MacOS:
+- Open the downloaded file and drag **Visual Studio Code** into your
    **Applications** folder.
-3. Open it once from Applications to confirm it launches.
+- Open it once from Applications to confirm it launches.
+
+### Windows:
+Run the installer. Make sure the following options are checked when installing VS Code:
+- Add "Open with Code" action to Window Explorer file context menu
+- Add "Open with Code" action to Windows Explorer directory context menu
+- Register Code as an editor for supported file types
+- Add to PATH
+
+## 3. Install Git
+
+### MacOS
+The installation is simpler, check out the next section.
+
+### Windows:
+The installer can be found at https://git-scm.com/install. I recommend downloading the standalone installer. There will be a few download options, but most machines will want the x64 version. If you're not sure, you can easily determine this. Go to Settings -> System, then scroll all the way down and click on About. The information will be under System type. Once you have that figured out, download the setup tool and start the installer.
+
+Please take your time when clicking through these options, because we will set some specific settings for some of them - consult the screenshots throughout the process. The first set of options aren't super important, but **pay attention when the installer asks you to set the default editor for Git** -- the default option is `vim`, which is an advanced text editor, but you can switch this to VS Code which we installed earlier.
+![Set VS Code as the default editor](images/01-git-set-vs-code.png) 
+
+I recommend clicking "Next" for all of the options that follow until you get to "Configuring the terminal emulator to use with Git Bash". 
+![Set VS Code as the default editor](images/02-git-set-term.png) 
+
+Here, please set "Use Windows' default console window". Then continue hitting "Next". Once you're done, continue onto section 3.
 
 ## 3. Confirm Git is installed
 
-Open **Terminal** (`Cmd + Space`, type `Terminal`, Enter) and run:
+Open **Terminal** (MacOS: `Cmd + Space`, type `Terminal`, Enter; Windows: `Windows Key`, type `powershell`, select "Windows Powershell") and run:
 
 ```
 git --version
 ```
 
-If you see a version number, you're set. If a dialog pops up offering to
-install the Command Line Developer Tools, click **Install** — this puts the
-actual `git` program on your Mac and can take a few minutes, longer on
-slower connections. Once it finishes, run `git --version` again to confirm.
+If you see a version number, you're set. 
+
+MacOS Users:
+If a dialog pops up offering to install the Command Line Developer Tools, click **Install** — this puts the actual `git` program on your Mac and can take a few minutes, longer on slower connections. Once it finishes, run `git --version` again to confirm.
 
 ## 4. Tell Git who you are
 
-Git attaches a name and email to every commit you make. Set that up now
-(swap in your own name and the email you used for GitHub):
+Git attaches a name and email to every commit you make. Set that up now by typing the following commands in Terminal / Powershell (swap in your own name and the email you used for GitHub):
 
 ```
 git config --global user.name "Your Name"
