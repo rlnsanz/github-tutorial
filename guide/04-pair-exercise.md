@@ -41,7 +41,8 @@ pull request is merged.
 Same as before, but this time pick **your fork** (it'll be under your
 username, not theirs):
 
-1. `Cmd + Shift + P` → `Git: Clone` → **Clone from GitHub**.
+1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows), then choose
+   `Git: Clone` → **Clone from GitHub**.
 2. Select your fork of your partner's repo.
 3. Choose a folder, then **Open** when prompted.
 

@@ -10,16 +10,15 @@ or VS Code installed), skip straight to whichever step you still need.
 1. Go to [github.com](https://github.com) and click **Sign up**.
 2. Use whatever email address you're comfortable using for this — personal or
    work, either is fine.
-3. Pick a username. It's public and hard to change later, so avoid anything
-   too tied to a current employer if you'd rather keep this account portable.
+3. Pick a username you're comfortable sharing publicly and using beyond
+   this class.
 
 ## 2. Install VS Code (skip if you already have it)
 
 We'll use [Visual Studio Code](https://code.visualstudio.com/) (VS Code) as
-our editor, as it is one of the most popular and beginner friendly code editors available. 
-It has a built-in Terminal and a built-in Git tool, so it's the only thing 
-you need to install; it'll make working with Git and writing plain text files 
-a lot easier.
+our editor. It has a built-in Terminal and Git controls to make working with
+Git and writing plain-text files easier. You'll also need to install Git,
+as described below.
 
 First, Go to [code.visualstudio.com](https://code.visualstudio.com/) and download
 the correct version for your operating system (Windows or MacOS).
@@ -50,9 +49,9 @@ Please take your time when clicking through these options, because we will set s
 I recommend clicking "Next" for all of the options that follow until you get to "Configuring the terminal emulator to use with Git Bash". 
 ![Set VS Code as the default editor](images/02-git-set-term.png) 
 
-Here, please set "Use Windows' default console window". Then continue hitting "Next". Once you're done, continue onto section 3.
+Here, please set "Use Windows' default console window". Then continue hitting "Next". Once you're done, continue to [section 4](#4-confirm-git-is-installed).
 
-## 3. Confirm Git is installed
+## 4. Confirm Git is installed
 
 Open **Terminal** (MacOS: `Cmd + Space`, type `Terminal`, Enter; Windows: `Windows Key`, type `powershell`, select "Windows Powershell") and run:
 
@@ -65,7 +64,7 @@ If you see a version number, you're set.
 MacOS Users:
 If a dialog pops up offering to install the Command Line Developer Tools, click **Install** — this puts the actual `git` program on your Mac and can take a few minutes, longer on slower connections. Once it finishes, run `git --version` again to confirm.
 
-## 4. Tell Git who you are
+## 5. Tell Git who you are
 
 Git attaches a name and email to every commit you make. Set that up now by typing the following commands in Terminal / Powershell (swap in your own name and the email you used for GitHub):
 
@@ -81,7 +80,7 @@ git config --global user.name
 git config --global user.email
 ```
 
-## 5. Sign in to GitHub inside VS Code
+## 6. Sign in to GitHub inside VS Code
 
 1. Open **VS Code**.
 2. Click the **Accounts** icon in the bottom-left corner of the window (looks

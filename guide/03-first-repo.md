@@ -18,10 +18,10 @@ it down to your computer.
 ## Clone it into VS Code
 
 1. Open VS Code.
-2. Press `Cmd + Shift + P` to open the Command Palette, type `Git: Clone`,
-   and select it.
+2. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows) to open the
+   Command Palette, type `Git: Clone`, and select it.
 3. Choose **Clone from GitHub**. If prompted, sign in (see
-   [Setup](02-setup.md#5-sign-in-to-github-inside-vs-code)).
+   [Setup](02-setup.md#6-sign-in-to-github-inside-vs-code)).
 4. Find and select the repository you just created.
 5. Pick a folder on your computer to save it in — your Desktop or Documents
    folder is fine.
@@ -34,7 +34,10 @@ You now have a local copy, connected to the one on GitHub.
 
 1. In the file explorer on the left, click `README.md` to open it.
 2. Add a line about yourself — who you are, what you're working on, whatever
-   feels natural. Save the file (`Cmd + S`). `.md` files have special formatting that you can use to create tables, headlines and much more. Check out https://www.markdownguide.org/basic-syntax/ for the syntax. 
+   feels natural. Save the file (`Cmd + S` on Mac or `Ctrl + S` on Windows).
+   `.md` files have special formatting that you can use to create tables,
+   headlines and much more. Check out https://www.markdownguide.org/basic-syntax/
+   for the syntax.
 
 Now we're going to make a labeled checkpoint (commit) and save it on github's servers (push).
 
