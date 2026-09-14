@@ -29,7 +29,7 @@ easier. You'll also need to install Git, as described below.
 ### Windows
 
 Follow the Windows instructions in
-[Setup: Install VS Code](02-setup.md#2-install-vs-code-skip-if-you-already-have-it),
+[Setup: Install VS Code](02-setup.md#2-can-you-launch-vs-code),
 including the installer options listed there. Open VS Code once to confirm it
 launches.
 
@@ -55,8 +55,8 @@ megabytes and can take 10+ minutes on slower connections. Doing it in advance me
 ### Windows
 
 Follow the Windows instructions in [Setup: Install Git](02-setup.md#3-install-git),
-including the editor and terminal choices shown in the screenshots. Then
-[confirm Git is installed](02-setup.md#4-confirm-git-is-installed) using PowerShell.
+including the editor and terminal choices shown in the screenshots and the
+final check in PowerShell to confirm Git is installed.
 
 We'll configure Git and sign in to GitHub in VS Code together during Setup.
 

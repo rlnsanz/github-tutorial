@@ -21,7 +21,7 @@ it down to your computer.
 2. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows) to open the
    Command Palette, type `Git: Clone`, and select it.
 3. Choose **Clone from GitHub**. If prompted, sign in (see
-   [Setup](02-setup.md#6-sign-in-to-github-inside-vs-code)).
+   [Setup](02-setup.md#5-sign-in-to-github-inside-vs-code)).
 4. Find and select the repository you just created.
 5. Pick a folder on your computer to save it in — your Desktop or Documents
    folder is fine.
