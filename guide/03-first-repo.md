@@ -87,4 +87,4 @@ Try these commands the next time you edit and save a file.
 
 ---
 
-Next: [4. Pair Exercise — Fork and Pull Request](04-pair-exercise.md).
+Next: [Pair Exercise](04-pair-exercise.md).
