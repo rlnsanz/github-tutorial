@@ -12,8 +12,8 @@ We'll practice on plain-text notes, but the same skills apply to websites, R or 
 
 - A GitHub account and a repository of your own
 - The ability to save (commit) and publish (push) changes to that repository
-- Experience forking someone else's repository, proposing a change, and opening a
-  Pull Request (and reviewing/merging one from a partner)
+- Experience working through a pull request with a partner, as either the person
+  proposing a change or the person reviewing and merging it
 - A working mental model of the vocabulary: repository, commit, branch, push/pull,
   fork, Pull Request (PR)
 
@@ -30,15 +30,17 @@ If you'd like a head start, see [guide/00-before-you-arrive.md](guide/00-before-
 | 10 mins | Welcome and [key concepts](guide/01-concepts.md). |
 | 20 mins | [Setup](guide/02-setup.md): GitHub account, VS Code, and Git. |
 | 20 mins | [Your first repository](guide/03-first-repo.md): create, clone, edit, commit, push. |
-| 30 mins | [Pair exercise](guide/04-pair-exercise.md): fork a partner's repo and open a pull request. |
+| 30 mins | [Pair exercise](guide/04-pair-exercise.md): work together to propose, review, and merge one pull request. |
 | 5 mins | [When things go wrong](guide/05-troubleshooting.md): Extra time to finish the exercises and review common errors. |
-| 5 mins | Wrap-up & [resources](guide/06-resources.md). |
+| 5 mins | Wrap-up and [resources](guide/06-resources.md). |
 
-Ask questions any time, and flag down the facilitator (Rolando or Rosty) if you get stuck. 
 
 During the pair exercise, check in with your partner before moving to the next step.
-The pair exercise gets the most time because you'll take turns proposing a change to your partner's repository and reviewing a change to your own.
-<!-- TODO: we may need to do a coin toss and assign roles. A reviewer and a proposer. Do the merge. Cuts exercise in half. -->
+Choose a proposer and a reviewer, then follow one change from proposal to merge
+together. 
+
+If you have a question or get stuck, flag down Rolando or Rosty.
+
 
 ## Contact
 * Rolando Garcia: rolando.garcia@asu.edu

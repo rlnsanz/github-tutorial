@@ -47,8 +47,9 @@ If you **really** need to store binary files, it's best to use Git Large File St
 
 ## The shape of today
 
-You'll do this sequence twice: once alone with your own repository, then once
-with a partner across two repositories.
+First, everyone will practice saving and publishing a change in their own
+repository. Then, each pair will work through one pull request together: one
+person proposes a change, and the other reviews and merges it.
 
 ```
 create repo → clone it → edit a file → commit → push
