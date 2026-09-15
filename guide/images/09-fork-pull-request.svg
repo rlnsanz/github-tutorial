@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="290" viewBox="0 0 920 290" role="img" aria-labelledby="title desc">
+  <title id="title">Fork, propose, and merge</title>
+  <desc id="desc">On GitHub, fork the reviewer's workshop-notes repository as partner-notes under the proposer's account. Edit the fork, then send a pull request back to the reviewer's repository. The reviewer merges it, then syncs their laptop.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="920" height="290" rx="12" fill="#f8fafc"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#0f172a">
+    <text x="24" y="35" font-size="20" font-weight="700">On GitHub</text>
+    <rect x="24" y="66" width="292" height="144" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="44" y="122" font-size="21" font-weight="700">Reviewer's repository</text>
+    <text x="44" y="161" font-size="21">workshop-notes</text>
+    <rect x="604" y="66" width="292" height="144" rx="10" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+    <text x="624" y="122" font-size="21" font-weight="700">Proposer's fork</text>
+    <text x="624" y="161" font-size="21">partner-notes</text>
+    <text x="460" y="88" text-anchor="middle" font-size="19" font-weight="700">1. Fork</text>
+    <path d="M 336 105 H 584" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="460" y="164" text-anchor="middle" font-size="19" font-weight="700">2. Pull request</text>
+    <path d="M 584 183 H 336" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="24" y="255" font-size="20"><tspan font-weight="700">3. Reviewer:</tspan> review and merge, then Sync Changes in VS Code.</text>
+  </g>
+</svg>

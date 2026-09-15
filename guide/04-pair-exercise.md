@@ -1,138 +1,163 @@
-# 4. Pair Exercise — Fork and Pull Request
+# Pair Exercise: Fork and Pull Request
 
 Find a partner near you. Together, you'll propose, review, and merge **one pull
 request** using the repositories you created in
-[3. Your First Repository](03-first-repo.md).
+[Your First Repository](03-first-repo.md).
+
+**Allow 30 minutes. By the end, you'll have merged a note into one partner's
+repository and opened the updated README together in VS Code.**
 
 ## Choose your roles
 
-Pick roles, or flip a coin:
+You and your partner take one role each. Pick roles, or flip a coin:
 
 - **Proposer:** fork the reviewer's repository, make a change, and open a pull request.
 - **Reviewer:** share your repository, review the proposed change, merge it, and
   pull the result onto your laptop.
 
-The proposer uses their laptop for steps 2–7 while the reviewer follows along.
-For steps 8–9, the reviewer uses their laptop while the proposer follows along.
-Talk through what you're doing and check in before moving to the next step.
-Keep your chosen roles throughout the pair exercise and the optional contribution
-below.
+Use the proposer's laptop for steps 2–6, then the reviewer's for steps 7–8.
+Follow along and talk through each step together. Keep the same roles for steps 1–8.
 
-## 1. Share the reviewer's repo URL — together
+<img src="images/09-fork-pull-request.svg" alt="On GitHub, the proposer forks the reviewer's workshop-notes repository as partner-notes, edits their fork, then sends a pull request back to the reviewer's repository. The reviewer merges it and syncs their laptop." width="920">
 
-The reviewer shares the URL of the repository they created in the last
-section (e.g. `https://github.com/reviewer-username/their-notes`).
+## 1. Share the reviewer's repository — together
 
-The proposer will make a copy under their own GitHub account, called a **fork**.
-This lets them make changes without needing permission to edit the reviewer's
-repository directly.
+To share your repository you share the URL (or web address) where that repo is hosted. On the reviewer's laptop:
+
+1. Go to GitHub.com and open the `workshop-notes` repository you created in the
+   previous exercise.
+2. Share the address from your browser's address bar. It looks like
+   `github.com/<user>/workshop-notes`, where `<user>` is the reviewer's GitHub
+   username. Your partner can type it into their own browser, or you can send it
+   by chat or email.
 
 ## 2. Fork it — proposer
 
-1. Open the reviewer's repository page on GitHub.com.
-2. Click **Fork** (top right), then **Create fork**.
+1. Open the link your partner shared.
+2. Click **Fork** (top right). Choose your own account as the **Owner**.
 
-You now have your own copy of their repo, under your account. This is
-separate from their copy — changes here reach their repository only when your
-pull request is merged.
+   <img src="images/14-github-fork.png" alt="GitHub repository buttons: Watch, Fork, and Starred. Fork is the middle button." width="419">
+
+3. Set **Repository name** to `partner-notes`, then click **Create fork**.
+
+
 
 ## 3. Clone your fork into VS Code — proposer
 
-Same as before, but this time pick **your fork** (it'll be under your
-username, not theirs):
-
-1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows), then choose
+1. Open **VS Code** on your laptop. Press `Cmd + Shift + P` (Mac) or
+   `Ctrl + Shift + P` (Windows) to open the Command Palette, then choose
    `Git: Clone` → **Clone from GitHub**.
-2. Select your fork of your partner's repo.
-3. Choose a folder, then **Open** when prompted.
+2. Select **your-username/partner-notes**.
+3. Choose your repositories folder (e.g. `Repos`). VS Code creates a new
+   `partner-notes` folder inside it. Click **Open** when prompted.
 
-Next, create a branch in your fork. A branch lets you work on a change within a
-repository; a fork is a separate repository under your account.
+Stay on `main`, the branch opened by default. Your fork keeps your edits
+separate from your partner's repository until they merge your pull request.
 
-## 4. Create a branch — proposer
+## 4. Make a change — proposer
 
-1. Click the branch name in the bottom-left corner of VS Code (it'll say
-   `main`).
-2. Choose **Create new branch**, and give it a name like `add-a-note`.
+Open `README.md` and add a short note to your partner, for example:
 
-Working in a branch keeps your change separate until it's reviewed.
+```markdown
+## Note from Alice
+Thanks for sharing! What are you working on next?
+```
 
-## 5. Make a change — proposer
+Use a greeting and write your own message. Save the file.
 
-Open `README.md` and add a short note, comment, or question addressed to your
-partner — e.g. a line under a new `## Note from <your name>` heading. Save
-the file.
+## 5. Commit and push — proposer
 
-## 6. Commit and push the branch — proposer
+   <img src="images/06-vscode-stage-changes.png" alt="VS Code Source Control with the plus button beside a changed file highlighted. Use the plus beside README.md in your repository." width="1000">
 
-1. Open **Source Control**, stage the change, write a commit message, and
-   commit — same as before.
-2. Click **Publish Branch**. This pushes your new branch to *your fork* on
-   GitHub (not your partner's repo — you don't have permission to push there
-   directly, which is exactly why we're using a Pull Request).
+1. In **VS Code**, click **Source Control** in the left sidebar (the icon with three connected circles).
+2. Under **Changes**, hover over `README.md` and click **+** to stage it: select it for your next commit.
+3. In the message box at the top, write `Add a note for my partner`, then click **Commit** to save a checkpoint.
+4. Click **Sync Changes** to push your commit to your `partner-notes` fork on GitHub.
 
-## 7. Open a pull request — proposer
+## 6. Open a pull request — proposer
 
-1. Go to GitHub.com — it will likely show a banner offering to
-   **Compare & pull request**. Click it. (If not, go to your partner's
-   original repository and click **Pull requests → New pull request →
-   compare across forks**, then pick your fork and branch.)
-2. Confirm the base repository is the **reviewer's** repo and the base branch is
-   `main`. The head repository should be **your fork**, with `add-a-note` selected
-   as the compare branch.
+1. Open the **reviewer's `workshop-notes` repository** on GitHub. Click the
+   **Pull requests** tab near the top of the page.
+
+   <img src="images/15-github-pull-requests-tab.png" alt="GitHub's workshop-notes repository page with the Pull requests tab beside Issues." width="598">
+
+   Then click **New pull request → compare across forks**.
+2. Choose where the change goes (**base**) and where it comes from (**head**):
+
+   | Selector | Choose |
+   |---|---|
+   | base repository | `reviewer-username/workshop-notes` |
+   | base branch | `main` |
+   | head repository | `your-username/partner-notes` |
+   | compare branch | `main` |
+
+   Both branches are called `main`, but they belong to different repositories.
+
+   The screenshots highlight the selectors; use the names in the table above.
+
+   <img src="images/10-github-pr-base.png" alt="GitHub pull request form with the base repository and branch selectors outlined." width="1000">
+
+   <img src="images/11-github-pr-head.png" alt="GitHub pull request form with the head repository and compare branch selectors outlined." width="1000">
+
 3. Add a title and description, then click **Create pull request**.
-4. Share the pull request URL with the reviewer.
 
-## 8. Review and merge — reviewer
+Because you added the note in your fork, the **pull request** asks your partner to bring that change into their repository. This is a very common way of sharing improvements and fixes on GitHub, and the backbone of open source contributions.
 
-On your laptop, open the link the proposer shared, or find the pull request in
-your original repository's **Pull requests** tab.
+## 7. Review and merge — reviewer
 
-1. Open the PR and click the **Files changed** tab to see exactly what
-   changed, line by line.
-2. Explain the change to your partner in your own words. Leave a comment if you
-   like — click the `+` next to a line.
-3. If it looks good, click **Merge pull request**, then **Confirm merge**.
+On the reviewer's laptop, open your `workshop-notes` repository on GitHub.
+Click **Pull requests** to find your partner's pull request (PR).
 
-## 9. Pull the merge down locally — reviewer
+1. Open the PR and click **Files changed** to read your partner's note.
 
-Back in VS Code, open your own repository from the previous exercise, switch to the
-`main` branch (bottom-left branch selector) and click **Sync Changes** to
-pull down the merged change. Open `README.md` and confirm together that the
-proposer's note is there.
+   <img src="images/12-github-files-changed.png" alt="GitHub pull request tabs with Files changed outlined." width="850">
 
-Together, you've completed a full collaboration loop: fork, branch, commit,
-push, pull request, review, merge, pull.
+2. If you're happy with it, return to **Conversation** and scroll down. Click the
+   dropdown arrow beside the green merge button and choose **Squash and merge**.
+   Click the updated green button, keep the suggested commit message, then click
+   **Confirm squash and merge**. This saves the pull request's changes as one commit.
 
-## Finished early? Contribute to the workshop repository
+   <img src="images/13-github-merge.png" alt="GitHub's merge dropdown with its arrow outlined and Squash and merge listed as the second option." width="650">
 
-Keep the same proposer and reviewer. Together, add a useful resource for
-journalists, researchers, or social scientists to
-[the workshop repository](https://github.com/rlnsanz/github-tutorial).
+## 8. Pull the merge down locally — reviewer
 
-1. The proposer forks the workshop repository into their own GitHub account
-   and clones that fork into VS Code, as in steps 2–3.
-2. Create a branch named `add-resource`.
-3. In VS Code's file explorer, open the `contributions` folder and create a file
+In VS Code, open your own `workshop-notes` folder from the previous exercise.
+Switch to `main` using the branch selector at the bottom left, then click the
+**Sync Changes** icon (the circular arrows beside it).
+
+<img src="images/16-vscode-status-sync.png" alt="VS Code's bottom-left status bar showing main* and the circular arrows for Sync Changes to its right." width="206">
+
+**Open `README.md` and find your partner's note. You've completed
+a pull request as a pair!**
+
+<details>
+<summary>Finished early? Contribute to the workshop repository (optional)</summary>
+
+Now each of you can propose a useful resource for journalists, researchers, or
+social scientists to [the workshop repository](https://github.com/rlnsanz/github-tutorial).
+Work on your own laptop and open one pull request each, then review each other's
+recommendations.
+
+1. Fork the workshop repository into your own GitHub account,
+   keeping the name `github-tutorial`, and clone that fork into VS Code.
+   Stay on the fork's default branch.
+2. In VS Code's file explorer, open the `contributions` folder and create a file
    named `your-github-username.md`, replacing the placeholder with your username.
-   If that file already exists, use `your-github-username-2.md` instead. Each pair
-   uses its own file to avoid editing the same lines.
-4. Add the resource's name, a link, and one sentence explaining why it's useful.
+3. Add the resource's name, a link, and one sentence explaining why it's useful.
    See the [contribution example](../contributions/README.md).
-5. Save, stage, commit, and publish the branch, as in step 6.
-6. Open a pull request with `rlnsanz/github-tutorial` as the base repository and
-   its default branch as the base branch. Select your fork and `add-resource` as
-   the head repository and compare branch. Give the PR a title such as
+4. Save, stage, commit, and click **Sync Changes**, as in step 5 above.
+5. Open a pull request with `rlnsanz/github-tutorial` as the base repository and
+   its default branch as the base branch. Select your fork as the head repository
+   and its default branch as the compare branch. Give the PR a title such as
    `Recommend a resource: <resource name>`.
-7. Share the PR link with your partner. The reviewer opens **Files changed**,
-   checks the recommendation and link, and leaves a comment with feedback.
-8. Show the PR to a facilitator, who can review and merge it. You don't need to
+6. Swap PR links with your partner. Open their PR's **Files changed** tab and
+   check their recommendation and link. Return to **Conversation**, write a
+   short comment, and click **Comment**.
+7. Show the PR to a facilitator, who can review and merge it. You don't need to
    wait for the merge to finish this optional exercise.
 
-Completing one pull request with your partner in steps 1–9 is the main goal.
-This contribution is an optional way to practice on a shared project.
+</details>
 
 ---
 
-Hit an error somewhere in there? Check
-[5. When Things Go Wrong](05-troubleshooting.md).
+When you're ready, [continue to the next section](05-troubleshooting.md).

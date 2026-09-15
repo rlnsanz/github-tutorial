@@ -4,8 +4,7 @@ Finished the pair exercise early? Add a resource that other journalists,
 researchers, or social scientists might find useful.
 
 Create a separate file named `your-github-username.md` in this folder, replacing
-the placeholder with your GitHub username. If it already exists, use
-`your-github-username-2.md` instead.
+the placeholder with your GitHub username.
 
 Use this format, replacing the example with your recommendation:
 
