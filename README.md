@@ -35,10 +35,14 @@ If you'd like a head start, see [Before you arrive](guide/00-before-you-arrive.m
 | 30 mins | [Before you arrive](guide/00-before-you-arrive.md) and [setup](guide/02-setup.md): complete any remaining account creation and installs, configure Git, and sign in to GitHub in VS Code. |
 | 20 mins | [Your first repository](guide/03-first-repo.md): create, clone, edit, commit, push. |
 | 30 mins | [Pair exercise](guide/04-pair-exercise.md): work together to propose, review, and merge one pull request. |
-| 5 mins | [When things go wrong](guide/05-troubleshooting.md): Extra time to finish the exercises and review common errors. |
+| 5 mins | [Catch up and ask questions](guide/05-troubleshooting.md): finish an exercise, try an optional activity, or get help with a common pitfall. |
 | 5 mins | Wrap-up and [resources](guide/06-resources.md). |
 
 In the pair exercise, you'll work with someone nearby to add a note to one of your repositories from the previous exercise. One person proposes the change; the other reviews and accepts it. You'll follow along with each other and talk through the steps, completing one pull request together.
+
+The five minutes afterward are flexible: pick up where you left off, explore
+more if you're finished, or bring questions about using Git and GitHub in
+your own work. Choose what you need; the extra activities are optional.
 
 If you have a question or get stuck, flag down Rolando or Rosty.
 

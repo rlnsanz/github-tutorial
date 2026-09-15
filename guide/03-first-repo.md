@@ -15,6 +15,10 @@ change, and publish it back.
 4. Check **Add a README file**.
 5. Click **Create repository**.
 
+**Public means anyone can see your repository.** For this workshop, only add
+notes you're comfortable sharing publicly. For your own projects, you can
+choose **Private** when creating a repository to limit who can see your work.
+
 You now have a repository that exists only on GitHub's servers. Next we bring
 it down to your computer.
 

@@ -1,5 +1,16 @@
 # 6. Resources
 
+### Choose what you share
+
+We've used **public repositories** throughout this workshop so partners can
+find and collaborate on each other's work. Anyone can view those repositories
+and their commit history.
+
+For your own projects, you can choose **Private** when creating a repository
+on GitHub. This lets you keep your work private and invite collaborators who
+need access. Choose the visibility before uploading files so you only share
+what you intend to share.
+
 ## Keep learning
 
 - [GitHub Docs: Hello World guide](https://docs.github.com/en/get-started/quickstart/hello-world) — a short, official version of what we just did
@@ -23,4 +34,4 @@
 - Look into `.gitignore` and repository templates once you're managing more
   than a couple of files.
 
-Thanks for participating — nice work today.
+Thanks for participating, nice work today :)
